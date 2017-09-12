@@ -12,7 +12,7 @@
         (#{item.id},#{item.quartzName},#{item.quartzClass},#{item.status},#{item.createDate},#{item.updateDate})  
     </foreach>  
   </insert>
-  <!-- 测试使用，不建议系统有次操作 -->
+  <!-- 测试使用，不建议系统有操作 -->
   <delete id="delteAllJobs">
   	delete from quartz_dictionary
   </delete>
