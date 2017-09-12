@@ -5,8 +5,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
-@ComponentScan("com.example.master")
-@MapperScan("com.example.master.dao")
+@ComponentScan("com.master")
+@MapperScan("com.master.dao")
 @SpringBootApplication
 public class StartApplication {
 
