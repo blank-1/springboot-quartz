@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:mysql://115.28.135.49:3306/txo?useUnicode=true
+    username: txodb
+    password: t12x560sffs
+    driver-class-name: com.mysql.jdbc.Driver
+    
+mybatis: 
+  mapper-locations:
+  - classpath:com/master/mapper/*.xml
+  type-aliases-package: com.master.entity
+  
+    

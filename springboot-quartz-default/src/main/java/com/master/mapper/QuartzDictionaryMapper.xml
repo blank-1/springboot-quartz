@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >  
+<mapper namespace="com.master.dao.QuartzDictionaryMapper">
+	
+
+
+  <insert id="batchAddQuartz" parameterType="java.util.List">
+  	insert into quartz_dictionary
+  	(id,quartz_name,quartz_class,status,create_date,update_date)
+  	values 
+  	<foreach collection="list" item="item" index="index" separator="," >  
+        (#{item.id},#{item.quartzName},#{item.quartzClass},#{item.status},#{item.createDate},#{item.updateDate})  
+    </foreach>  
+  </insert>
+  <!-- 测试使用，不建议系统有次操作 -->
+  <delete id="delteAllJobs">
+  	delete from quartz_dictionary
+  </delete>
+</mapper>
