@@ -1,0 +1,71 @@
+2017-09-08 15:52:03.700  INFO 20564 --- [main] DemoApplication         : Starting DemoApplication on DESKTOP-I8L7OGS with PID 20564 (B:\work\SpringBootQuartz-master\demo\target\classes started by double in B:\work\SpringBootQuartz-master\demo)
+2017-09-08 15:52:03.704  INFO 20564 --- [main] DemoApplication         : No active profile set, falling back to default profiles: default
+2017-09-08 15:52:05.069  INFO 20564 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2017-09-08 15:52:05.070  INFO 20564 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.15
+2017-09-08 15:52:05.149  INFO 20564 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-09-08 15:52:05.357  INFO 20564 --- [localhost-startStop-1] o.q.e.servlet.QuartzInitializerListener  : Quartz Initializer Servlet loaded, initializing Scheduler...
+2017-09-08 15:52:05.390  INFO 20564 --- [localhost-startStop-1] org.quartz.impl.StdSchedulerFactory      : Using ConnectionProvider class 'org.quartz.utils.C3p0PoolingConnectionProvider' for data source 'qzDS'
+2017-09-08 15:52:05.408  INFO 20564 --- [MLog-Init-Reporter] com.mchange.v2.log.MLog                  : MLog clients using slf4j logging.
+2017-09-08 15:52:05.436  INFO 20564 --- [localhost-startStop-1] com.mchange.v2.c3p0.C3P0Registry         : Initializing c3p0-0.9.5.2 [built 08-December-2015 22:06:04 -0800; debug? true; trace: 10]
+2017-09-08 15:52:05.504  INFO 20564 --- [localhost-startStop-1] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2017-09-08 15:52:05.506  INFO 20564 --- [localhost-startStop-1] org.quartz.simpl.SimpleThreadPool        : Job execution threads will use class loader of thread: localhost-startStop-1
+2017-09-08 15:52:05.516  INFO 20564 --- [localhost-startStop-1] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2017-09-08 15:52:05.516  INFO 20564 --- [localhost-startStop-1] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.0 created.
+2017-09-08 15:52:05.517  INFO 20564 --- [localhost-startStop-1] org.quartz.impl.jdbcjobstore.JobStoreTX  : Using thread monitor-based data access locking (synchronization).
+2017-09-08 15:52:05.518  INFO 20564 --- [localhost-startStop-1] org.quartz.impl.jdbcjobstore.JobStoreTX  : JobStoreTX initialized.
+2017-09-08 15:52:05.520  INFO 20564 --- [localhost-startStop-1] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 5 threads.
+  Using job-store 'org.quartz.impl.jdbcjobstore.JobStoreTX' - which supports persistence. and is not clustered.
+
+2017-09-08 15:52:05.521  INFO 20564 --- [localhost-startStop-1] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2017-09-08 15:52:05.521  INFO 20564 --- [localhost-startStop-1] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.0
+2017-09-08 15:52:05.546  INFO 20564 --- [localhost-startStop-1] c.m.v.c.i.AbstractPoolBackedDataSource   : Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hge2v59qqrnm0jb8vncr|2f7ca844, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hge2v59qqrnm0jb8vncr|2f7ca844, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://115.28.135.49:3306/txo?useUnicode=true&characterEncoding=UTF-8, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 10, maxStatements -> 0, maxStatementsPerConnection -> 120, minPoolSize -> 1, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {user=******, password=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+2017-09-08 15:52:06.050  INFO 20564 --- [localhost-startStop-1] org.quartz.impl.jdbcjobstore.JobStoreTX  : Freed 0 triggers from 'acquired' / 'blocked' state.
+2017-09-08 15:52:06.076  INFO 20564 --- [localhost-startStop-1] org.quartz.impl.jdbcjobstore.JobStoreTX  : Handling 2 trigger(s) that missed their scheduled fire-time.
+2017-09-08 15:52:06.635  INFO 20564 --- [localhost-startStop-1] org.quartz.impl.jdbcjobstore.JobStoreTX  : Recovering 0 jobs that were in-progress at the time of the last shut-down.
+2017-09-08 15:52:06.635  INFO 20564 --- [localhost-startStop-1] org.quartz.impl.jdbcjobstore.JobStoreTX  : Recovery complete.
+2017-09-08 15:52:06.666  INFO 20564 --- [localhost-startStop-1] org.quartz.impl.jdbcjobstore.JobStoreTX  : Removed 0 'complete' triggers.
+2017-09-08 15:52:06.690  INFO 20564 --- [localhost-startStop-1] org.quartz.impl.jdbcjobstore.JobStoreTX  : Removed 0 stale fired job entries.
+2017-09-08 15:52:06.738  INFO 20564 --- [localhost-startStop-1] org.quartz.core.QuartzScheduler          : Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2017-09-08 15:52:06.739  INFO 20564 --- [localhost-startStop-1] o.q.e.servlet.QuartzInitializerListener  : Scheduler has been started...
+2017-09-08 15:52:06.739  INFO 20564 --- [localhost-startStop-1] o.q.e.servlet.QuartzInitializerListener  : Storing the Quartz Scheduler Factory in the servlet context at key: org.quartz.impl.StdSchedulerFactory.KEY
+2017-09-08 15:52:07.100  INFO 20564 --- [main] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2017-09-08 15:52:07.101  INFO 20564 --- [main] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2017-09-08 15:52:07.102  INFO 20564 --- [main] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.0 created.
+2017-09-08 15:52:07.102  INFO 20564 --- [main] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2017-09-08 15:52:07.102  INFO 20564 --- [main] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.0) 'schedulerFactoryBean' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2017-09-08 15:52:07.102  INFO 20564 --- [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+2017-09-08 15:52:07.102  INFO 20564 --- [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.0
+2017-09-08 15:52:07.104  INFO 20564 --- [main] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@40368a46
+2017-09-08 15:52:07.254 ERROR 20564 --- [DefaultQuartzScheduler_Worker-1] HelloJob            : Hello Job执行时间: Fri Sep 08 15:52:07 CST 2017
+2017-09-08 15:52:07.942  INFO 20564 --- [main] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED started.
+2017-09-08 15:52:07.985  INFO 20564 --- [main] DemoApplication         : Started DemoApplication in 4.78 seconds (JVM running for 5.414)
+2017-09-08 15:52:08.042 ERROR 20564 --- [DefaultQuartzScheduler_Worker-2] NewJob              : New Job执行时间: Fri Sep 08 15:52:08 CST 2017
+2017-09-08 15:52:32.733  INFO 20564 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-09-08 15:52:33.463  INFO 20564 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2017-09-08 15:52:33.737  INFO 20564 --- [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2017-09-08 15:53:00.296 ERROR 20564 --- [DefaultQuartzScheduler_Worker-3] HelloJob            : Hello Job执行时间: Fri Sep 08 15:53:00 CST 2017
+2017-09-08 15:53:00.798 ERROR 20564 --- [DefaultQuartzScheduler_Worker-4] NewJob              : New Job执行时间: Fri Sep 08 15:53:00 CST 2017
+2017-09-08 15:54:00.220 ERROR 20564 --- [DefaultQuartzScheduler_Worker-5] HelloJob            : Hello Job执行时间: Fri Sep 08 15:54:00 CST 2017
+2017-09-08 15:54:00.913 ERROR 20564 --- [DefaultQuartzScheduler_Worker-1] NewJob              : New Job执行时间: Fri Sep 08 15:54:00 CST 2017
+2017-09-08 15:54:14.192  INFO 20564 --- [RMI TCP Connection(2)-127.0.0.1] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2017-09-08 15:54:14.194  INFO 20564 --- [RMI TCP Connection(2)-127.0.0.1] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutting down.
+2017-09-08 15:54:14.195  INFO 20564 --- [RMI TCP Connection(2)-127.0.0.1] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2017-09-08 15:54:14.196  INFO 20564 --- [RMI TCP Connection(2)-127.0.0.1] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutdown complete.
+2017-09-08 15:54:14.198  INFO 20564 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2017-09-08 15:54:14.215  INFO 20564 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2017-09-08 15:54:14.444  INFO 20564 --- [localhost-startStop-2] org.quartz.core.QuartzScheduler          : Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
+2017-09-08 15:54:14.444  INFO 20564 --- [localhost-startStop-2] org.quartz.core.QuartzScheduler          : Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
+2017-09-08 15:54:14.447  INFO 20564 --- [localhost-startStop-2] org.quartz.core.QuartzScheduler          : Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
+2017-09-08 15:54:14.447  INFO 20564 --- [localhost-startStop-2] o.q.e.servlet.QuartzInitializerListener  : Quartz Scheduler successful shutdown.
